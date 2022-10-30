@@ -1,0 +1,34 @@
+.header {
+	display: flex;
+	margin-top: 25px;
+	border-top: 1px solid rgb(213, 213, 213);
+	flex-direction: column;
+	&__container {
+		display: flex;
+		align-items: center;
+	}
+	&__name {
+		width: 175px;
+		margin: 35px 0;
+	}
+	&__text {
+		width: 150px;
+		flex-grow: 1;
+		margin-right: 50px;
+		display: flex;
+		justify-content: center;
+	}
+	&__text-item {
+		width: 165px;
+	}
+}
+
+.header__img {
+	display: flex;
+	justify-content: center;
+	border-top: 1px solid rgb(213, 213, 213);
+}
+.header__img-item {
+	width: 850px;
+	margin: 35px 0;
+}

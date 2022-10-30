@@ -1,0 +1,30 @@
+.skills {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+	&__name {
+		font-size: 34px;
+	}
+	&__text {
+		font-size: 18px;
+	}
+}
+.card__conteiner {
+	display: flex;
+	flex-direction: row;
+}
+.card__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 70px;
+}
+.card__item-img {
+	width: 80px;
+}
+.card__item-text {
+	color: #828282;
+	font-size: 14px;
+	line-height: 17px;
+}
