@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import AboutMe from "./components/Body/AboutMe";
 import Skills from "./components/Body/Skills";
 import Footer from "./components/Footer/Footer";
+import TrafficLight from "./components/TrafficLight/TrafficLightClass";
 
 function App() {
 	return (
@@ -11,6 +12,7 @@ function App() {
 			<AboutMe />
 			<Skills />
 			<Footer />
+			<TrafficLight />
 		</div>
 	);
 }
