@@ -3,8 +3,8 @@ import "./FuncStarRating.scss";
 import Stars from "./Star";
 
 const FuncStarRating = (props) => {
-	const [rating, setRating] = useState(null);
-	const [hover, setHover] = useState(null);
+	const [rating, setRating] = useState(1);
+	const [hover, setHover] = useState(1);
 
 	function onMouseLeave() {
 		setHover(null);

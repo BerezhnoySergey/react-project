@@ -20,7 +20,7 @@ function App() {
 			<TrafficLight />
 			<Fcomponent name="serg" />
 			<Ccomponent />
-			<FuncStarRating rating="1" hover="1" />
+			<FuncStarRating hover="1" rating="1" />
 			<ClassStarRating hover="1" count="1" />
 		</div>
 	);
