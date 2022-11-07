@@ -4,6 +4,11 @@ import AboutMe from "./components/Body/AboutMe";
 import Skills from "./components/Body/Skills";
 import Footer from "./components/Footer/Footer";
 import TrafficLight from "./components/TrafficLight/TrafficLightClass";
+import Fcomponent from "./components/Body/Fcomponent";
+import Ccomponent from "./components/Body/Ccomponent";
+import FuncStarRating from "./components/StarRating/FuncStarRating";
+import ClassStarRating from "./components/StarRating/ClassStarRating";
+import Stars from "./components/StarRating/Star";
 
 function App() {
 	return (
@@ -13,6 +18,10 @@ function App() {
 			<Skills />
 			<Footer />
 			<TrafficLight />
+			<Fcomponent name="serg" />
+			<Ccomponent />
+			<FuncStarRating rating="1" hover="1" />
+			<ClassStarRating hover="1" count="1" />
 		</div>
 	);
 }
